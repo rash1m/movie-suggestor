@@ -6,6 +6,8 @@ import java.util.Scanner;// for Scanner
 public class Main { // main class
   public static void main(String[] args) { // main method
     Scanner scanner = new Scanner(System.in);// Create a Scanner object to read user input
+    System.out.print("\033[H\033[2J");// ANSI escape code to clear the console
+    System.out.flush();// Flush the console output
     System.out.println("=== Movie Suggestor ===");
     System.out.println("Welcome to the Movie Suggestor!");
     System.out.println("Answer a few questions to get personalized movie recommendations!");
@@ -43,7 +45,8 @@ public class Main { // main class
       scanner.close();
       return;
     } // End of try-catch for authentication
-
+    System.out.print("\033[H\033[2J");// ANSI escape code to clear the console
+    System.out.flush();// Flush the console output
     System.out.println("Login successful!");// Print success message
     System.out.println("Let's find the perfect movie for you!");// Print welcome message
     System.out.println("Answer the following questions to help us understand your preferences:");// Print instructions
