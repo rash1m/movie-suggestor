@@ -1,6 +1,6 @@
 # Movie Recommender
 
-A Java console application that recommends movies based on user mood and preferences. The system uses a questionnaire, genre scoring, and object-oriented design to produce personalised suggestions.
+This is a Java console application that recommends movies based on what the user's mood is and their preferences. The system uses a questionnaire, genre scoring, and object-oriented design to produce personalised suggestions.
 
 ## Features
 - User authentication system (file-based)
@@ -23,5 +23,3 @@ A Java console application that recommends movies based on user mood and prefere
 3. Answers are mapped to genres.
 4. Movies are scored based on genre alignment.
 5. The top recommendations are displayed.
-
-## Project Structure
